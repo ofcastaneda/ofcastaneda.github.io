@@ -6,17 +6,71 @@
     <description>Recent content on Oscar Castañeda</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2019 18:41:53 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2019 18:41:53 -0400</lastBuildDate>
     
 	    <atom:link href="https://ofcastaneda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A 354Mb/s 0.37mm^2 151mW 32-User 256-QAM Near-MAP Soft-Input Soft-Output Massive MU-MIMO Data Detector in 28nm CMOS</title>
+      <link>https://ofcastaneda.github.io/publication/19_esscirc/</link>
+      <pubDate>Mon, 02 Sep 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_esscirc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PPAC: A Versatile In-Memory Accelerator for Matrix-Vector-Product-Like Operations</title>
+      <link>https://ofcastaneda.github.io/publication/19_asap/</link>
+      <pubDate>Thu, 04 Jul 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_asap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Channel Charting with Representation-Constrained Autoencoders</title>
+      <link>https://ofcastaneda.github.io/publication/19_spawcb/</link>
+      <pubDate>Tue, 02 Jul 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_spawcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Neural-Network Optimized 1-bit Precoding for Massive MU-MIMO</title>
       <link>https://ofcastaneda.github.io/publication/19_spawc/</link>
-      <pubDate>Sat, 09 Mar 2019 18:41:53 -0400</pubDate>
+      <pubDate>Tue, 02 Jul 2019 18:41:53 -0400</pubDate>
       
       <guid>https://ofcastaneda.github.io/publication/19_spawc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Coordinate-Descent Data Detection and Precoding for Massive MU-MIMO</title>
+      <link>https://ofcastaneda.github.io/publication/19_iscas/</link>
+      <pubDate>Thu, 02 May 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_iscas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Precoding for Phase-Quantized Constant-Envelope Massive MU-MIMO-OFDM</title>
+      <link>https://ofcastaneda.github.io/publication/18_ict/</link>
+      <pubDate>Sat, 02 Jun 2018 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/18_ict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLSI Design of a 3-bit Constant-Modulus Precoder for Massive MU-MIMO</title>
+      <link>https://ofcastaneda.github.io/publication/18_iscas/</link>
+      <pubDate>Wed, 02 May 2018 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/18_iscas/</guid>
       <description></description>
     </item>
     
@@ -39,11 +93,38 @@
     </item>
     
     <item>
+      <title>FPGA Design of Low-Complexity Joint Channel Estimation and Data Detection for Large SIMO Wireless Systems</title>
+      <link>https://ofcastaneda.github.io/publication/17_iscas/</link>
+      <pubDate>Tue, 02 May 2017 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/17_iscas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POKEMON: A Non-Linear Beamforming Algorithm for 1-bit Massive MIMO</title>
+      <link>https://ofcastaneda.github.io/publication/17_icassp/</link>
+      <pubDate>Thu, 02 Mar 2017 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/17_icassp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation</title>
       <link>https://ofcastaneda.github.io/publication/16_tcas/</link>
       <pubDate>Thu, 03 Nov 2016 18:41:53 -0400</pubDate>
       
       <guid>https://ofcastaneda.github.io/publication/16_tcas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FPGA Design of Approximate Semidefinite Relaxation for Data Detection in Large MIMO Wireless Systems</title>
+      <link>https://ofcastaneda.github.io/publication/16_iscas/</link>
+      <pubDate>Mon, 02 May 2016 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/16_iscas/</guid>
       <description></description>
     </item>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Oscar Castañeda</title>
-    <link>https://ofcastaneda.github.io/publication/</link>
-    <description>Recent content in Publications on Oscar Castañeda</description>
+    <title>1 on Oscar Castañeda</title>
+    <link>https://ofcastaneda.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Oscar Castañeda</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Sep 2019 18:41:53 -0400</lastBuildDate>
     
-	    <atom:link href="https://ofcastaneda.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://ofcastaneda.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -75,24 +75,6 @@
     </item>
     
     <item>
-      <title>1-bit Massive MU-MIMO Precoding in VLSI</title>
-      <link>https://ofcastaneda.github.io/publication/17_jetcas/</link>
-      <pubDate>Tue, 19 Dec 2017 18:41:53 -0400</pubDate>
-      
-      <guid>https://ofcastaneda.github.io/publication/17_jetcas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VLSI Designs for Joint Channel Estimation and Data Detection in Large SIMO Wireless Systems</title>
-      <link>https://ofcastaneda.github.io/publication/17_tcas/</link>
-      <pubDate>Thu, 19 Oct 2017 18:41:53 -0400</pubDate>
-      
-      <guid>https://ofcastaneda.github.io/publication/17_tcas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>FPGA Design of Low-Complexity Joint Channel Estimation and Data Detection for Large SIMO Wireless Systems</title>
       <link>https://ofcastaneda.github.io/publication/17_iscas/</link>
       <pubDate>Tue, 02 May 2017 18:41:53 -0400</pubDate>
@@ -107,15 +89,6 @@
       <pubDate>Thu, 02 Mar 2017 18:41:53 -0400</pubDate>
       
       <guid>https://ofcastaneda.github.io/publication/17_icassp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation</title>
-      <link>https://ofcastaneda.github.io/publication/16_tcas/</link>
-      <pubDate>Thu, 03 Nov 2016 18:41:53 -0400</pubDate>
-      
-      <guid>https://ofcastaneda.github.io/publication/16_tcas/</guid>
       <description></description>
     </item>
     

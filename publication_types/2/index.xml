@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Oscar Castañeda</title>
+    <link>https://ofcastaneda.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on Oscar Castañeda</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Dec 2017 18:41:53 -0400</lastBuildDate>
+    
+	    <atom:link href="https://ofcastaneda.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1-bit Massive MU-MIMO Precoding in VLSI</title>
+      <link>https://ofcastaneda.github.io/publication/17_jetcas/</link>
+      <pubDate>Tue, 19 Dec 2017 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/17_jetcas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLSI Designs for Joint Channel Estimation and Data Detection in Large SIMO Wireless Systems</title>
+      <link>https://ofcastaneda.github.io/publication/17_tcas/</link>
+      <pubDate>Thu, 19 Oct 2017 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/17_tcas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation</title>
+      <link>https://ofcastaneda.github.io/publication/16_tcas/</link>
+      <pubDate>Thu, 03 Nov 2016 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/16_tcas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

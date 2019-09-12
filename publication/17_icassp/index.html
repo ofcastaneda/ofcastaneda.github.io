@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations.">
+  <meta name="description" content="One-bit quantization at the base-station (BS) of a massive multiple-input multiple-output (MIMO) wireless system enables significant power and cost savings. While the 1-bit uplink (users communicate to BS) has gained significant attention, the downlink (BS transmits to users) is far less studied. In this paper, we propose a novel, computationally-efficient 1-bit beamforming algorithm referred to as POKEMON (short for PrOjected downlinK bEaMfOrmiNg), which-after its convolution with the MIMO channel matrix-minimizes multi-user interference (a.k.a. spatial leakage). Our algorithm builds upon the biconvex relaxation (BCR) framework, which efficiently approximates the optimal 1-bit beamforming problem that is of combinatorial nature. Our simulation results show that POKEMON significantly outperforms linear beamformers followed by 1-bit quantization in terms of error-rate performance and recent non-linear beamformers in terms of complexity.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/16_tcas/">
+  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/17_icassp/">
 
   
 
@@ -96,7 +96,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ofcastaneda.github.io/publication/16_tcas/">
+  <link rel="canonical" href="https://ofcastaneda.github.io/publication/17_icassp/">
 
   
   
@@ -111,26 +111,26 @@
   <meta property="twitter:creator" content="@ofcastaneda">
   
   <meta property="og:site_name" content="Oscar Castañeda">
-  <meta property="og:url" content="https://ofcastaneda.github.io/publication/16_tcas/">
-  <meta property="og:title" content="Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation | Oscar Castañeda">
-  <meta property="og:description" content="Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://ofcastaneda.github.io/publication/17_icassp/">
+  <meta property="og:title" content="POKEMON: A Non-Linear Beamforming Algorithm for 1-bit Massive MIMO | Oscar Castañeda">
+  <meta property="og:description" content="One-bit quantization at the base-station (BS) of a massive multiple-input multiple-output (MIMO) wireless system enables significant power and cost savings. While the 1-bit uplink (users communicate to BS) has gained significant attention, the downlink (BS transmits to users) is far less studied. In this paper, we propose a novel, computationally-efficient 1-bit beamforming algorithm referred to as POKEMON (short for PrOjected downlinK bEaMfOrmiNg), which-after its convolution with the MIMO channel matrix-minimizes multi-user interference (a.k.a. spatial leakage). Our algorithm builds upon the biconvex relaxation (BCR) framework, which efficiently approximates the optimal 1-bit beamforming problem that is of combinatorial nature. Our simulation results show that POKEMON significantly outperforms linear beamformers followed by 1-bit quantization in terms of error-rate performance and recent non-linear beamformers in terms of complexity."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-11-03T18:41:53-04:00">
+  <meta property="article:published_time" content="2017-03-02T18:41:53-04:00">
   
-  <meta property="article:modified_time" content="2016-11-03T18:41:53-04:00">
+  <meta property="article:modified_time" content="2017-03-02T18:41:53-04:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation | Oscar Castañeda</title>
+
+
+  <title>POKEMON: A Non-Linear Beamforming Algorithm for 1-bit Massive MIMO | Oscar Castañeda</title>
 
 </head>
 
@@ -314,7 +314,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation</h1>
+  <h1 itemprop="name">POKEMON: A Non-Linear Beamforming Algorithm for 1-bit Massive MIMO</h1>
 
   
 
@@ -323,8 +323,8 @@
 
 
 
-<meta content="2016-11-03 18:41:53 -0400 EDT" itemprop="datePublished">
-<meta content="2016-11-03 18:41:53 -0400 EDT" itemprop="dateModified">
+<meta content="2017-03-02 18:41:53 -0400 -0400" itemprop="datePublished">
+<meta content="2017-03-02 18:41:53 -0400 -0400" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -349,7 +349,7 @@
     
       
     
-    <time>November 2016</time>
+    <time>March 2017</time>
   </span>
   
 
@@ -401,7 +401,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/7733153" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/7952800" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -433,7 +433,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations.</p>
+    <p class="pub-abstract" itemprop="text">One-bit quantization at the base-station (BS) of a massive multiple-input multiple-output (MIMO) wireless system enables significant power and cost savings. While the 1-bit uplink (users communicate to BS) has gained significant attention, the downlink (BS transmits to users) is far less studied. In this paper, we propose a novel, computationally-efficient 1-bit beamforming algorithm referred to as POKEMON (short for PrOjected downlinK bEaMfOrmiNg), which-after its convolution with the MIMO channel matrix-minimizes multi-user interference (a.k.a. spatial leakage). Our algorithm builds upon the biconvex relaxation (BCR) framework, which efficiently approximates the optimal 1-bit beamforming problem that is of combinatorial nature. Our simulation results show that POKEMON significantly outperforms linear beamformers followed by 1-bit quantization in terms of error-rate performance and recent non-linear beamformers in terms of complexity.</p>
     
 
     
@@ -445,8 +445,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -463,7 +463,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In IEEE Transactions on Circuits and Systems (TCAS) I: Regular Papers (invited journal article)</div>
+          <div class="col-12 col-md-9">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</div>
         </div>
       </div>
       <div class="col-md-1"></div>

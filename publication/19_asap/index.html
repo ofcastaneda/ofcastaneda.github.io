@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations.">
+  <meta name="description" content="Processing in memory (PIM) moves computation into memories with the goal of improving throughput and energy-efficiency compared to traditional von Neumann-based architectures. Most existing PIM architectures are either general-purpose but only support atomistic operations, or are specialized to accelerate a single task. We propose the Parallel Processor in Associative Content-addressable memory (PPAC), a novel in-memory accelerator that supports a range of matrix-vector-product (MVP)-like operations that find use in traditional and emerging applications. PPAC is, for example, able to accelerate low-precision neural networks, exact/approximate hash lookups, cryptography, and forward error correction. The fully-digital nature of PPAC enables its implementation with standard-cell-based CMOS, which facilitates automated design and portability among technology nodes. To demonstrate the efficacy of PPAC, we provide post-layout implementation results in 28nm CMOS for different array sizes. A comparison with recent digital and mixed-signal PIM accelerators reveals that PPAC is competitive in terms of throughput and energy-efficiency, while accelerating a wide range of applications and simplifying development.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/16_tcas/">
+  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/19_asap/">
 
   
 
@@ -96,7 +96,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ofcastaneda.github.io/publication/16_tcas/">
+  <link rel="canonical" href="https://ofcastaneda.github.io/publication/19_asap/">
 
   
   
@@ -111,26 +111,26 @@
   <meta property="twitter:creator" content="@ofcastaneda">
   
   <meta property="og:site_name" content="Oscar Castañeda">
-  <meta property="og:url" content="https://ofcastaneda.github.io/publication/16_tcas/">
-  <meta property="og:title" content="Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation | Oscar Castañeda">
-  <meta property="og:description" content="Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://ofcastaneda.github.io/publication/19_asap/">
+  <meta property="og:title" content="PPAC: A Versatile In-Memory Accelerator for Matrix-Vector-Product-Like Operations | Oscar Castañeda">
+  <meta property="og:description" content="Processing in memory (PIM) moves computation into memories with the goal of improving throughput and energy-efficiency compared to traditional von Neumann-based architectures. Most existing PIM architectures are either general-purpose but only support atomistic operations, or are specialized to accelerate a single task. We propose the Parallel Processor in Associative Content-addressable memory (PPAC), a novel in-memory accelerator that supports a range of matrix-vector-product (MVP)-like operations that find use in traditional and emerging applications. PPAC is, for example, able to accelerate low-precision neural networks, exact/approximate hash lookups, cryptography, and forward error correction. The fully-digital nature of PPAC enables its implementation with standard-cell-based CMOS, which facilitates automated design and portability among technology nodes. To demonstrate the efficacy of PPAC, we provide post-layout implementation results in 28nm CMOS for different array sizes. A comparison with recent digital and mixed-signal PIM accelerators reveals that PPAC is competitive in terms of throughput and energy-efficiency, while accelerating a wide range of applications and simplifying development."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-11-03T18:41:53-04:00">
+  <meta property="article:published_time" content="2019-07-04T18:41:53-04:00">
   
-  <meta property="article:modified_time" content="2016-11-03T18:41:53-04:00">
+  <meta property="article:modified_time" content="2019-07-04T18:41:53-04:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation | Oscar Castañeda</title>
+
+
+  <title>PPAC: A Versatile In-Memory Accelerator for Matrix-Vector-Product-Like Operations | Oscar Castañeda</title>
 
 </head>
 
@@ -314,7 +314,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Data Detection in Large Multi-Antenna Wireless Systems via Approximate Semidefinite Relaxation</h1>
+  <h1 itemprop="name">PPAC: A Versatile In-Memory Accelerator for Matrix-Vector-Product-Like Operations</h1>
 
   
 
@@ -323,8 +323,8 @@
 
 
 
-<meta content="2016-11-03 18:41:53 -0400 EDT" itemprop="datePublished">
-<meta content="2016-11-03 18:41:53 -0400 EDT" itemprop="dateModified">
+<meta content="2019-07-04 18:41:53 -0400 EDT" itemprop="datePublished">
+<meta content="2019-07-04 18:41:53 -0400 EDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -337,7 +337,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Oscar Castañeda</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tom Goldstein</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christoph Studer</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Oscar Castañeda</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Maria Bobbett</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Alexandra Gallyas-Sanhueza</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christoph Studer</span>
 
   </div>
   
@@ -349,7 +349,7 @@
     
       
     
-    <time>November 2016</time>
+    <time>July 2019</time>
   </span>
   
 
@@ -401,7 +401,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/7733153" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/8825013" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -433,7 +433,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Practical data detectors for future wireless systems with hundreds of antennas at the base station must achieve high throughput and low error rate at low complexity. Since the complexity of maximum-likelihood (ML) data detection is prohibitive for such large wireless systems, approximate methods are necessary. In this paper, we propose a novel data detection algorithm referred to as Triangular Approximate SEmidefinite Relaxation (TASER), which is suitable for two application sce- narios: (i) coherent data detection in large multi-user multiple- input multiple-output (MU-MIMO) wireless systems and (ii) joint channel estimation and data detection in large single-input multiple-output (SIMO) wireless systems. For both scenarios, we show that TASER achieves near-ML error-rate performance at low complexity by relaxing the associated ML-detection problem into a semidefinite program, which we solve approximately using a preconditioned forward-backward splitting procedure. Since the resulting problem is non-convex, we provide convergence guarantees for our algorithm. To demonstrate the efficacy of TASER in practice, we design a systolic architecture that enables our algorithm to achieve high throughput at low hardware complexity, and we develop reference field-programmable gate array (FPGA) and application-specific integrated circuit (ASIC) designs for various antenna configurations.</p>
+    <p class="pub-abstract" itemprop="text">Processing in memory (PIM) moves computation into memories with the goal of improving throughput and energy-efficiency compared to traditional von Neumann-based architectures. Most existing PIM architectures are either general-purpose but only support atomistic operations, or are specialized to accelerate a single task. We propose the Parallel Processor in Associative Content-addressable memory (PPAC), a novel in-memory accelerator that supports a range of matrix-vector-product (MVP)-like operations that find use in traditional and emerging applications. PPAC is, for example, able to accelerate low-precision neural networks, exact/approximate hash lookups, cryptography, and forward error correction. The fully-digital nature of PPAC enables its implementation with standard-cell-based CMOS, which facilitates automated design and portability among technology nodes. To demonstrate the efficacy of PPAC, we provide post-layout implementation results in 28nm CMOS for different array sizes. A comparison with recent digital and mixed-signal PIM accelerators reveals that PPAC is competitive in terms of throughput and energy-efficiency, while accelerating a wide range of applications and simplifying development.</p>
     
 
     
@@ -445,8 +445,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -463,7 +463,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In IEEE Transactions on Circuits and Systems (TCAS) I: Regular Papers (invited journal article)</div>
+          <div class="col-12 col-md-9">IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
