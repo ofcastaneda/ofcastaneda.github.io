@@ -6,10 +6,19 @@
     <description>Recent content on Oscar Castañeda</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2019 18:41:53 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 23:42:38 -0500</lastBuildDate>
     
 	    <atom:link href="https://ofcastaneda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modelsim Tutorial</title>
+      <link>https://ofcastaneda.github.io/publication/modelsim-tut/</link>
+      <pubDate>Thu, 23 Jan 2020 23:42:38 -0500</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/modelsim-tut/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A 354Mb/s 0.37mm^2 151mW 32-User 256-QAM Near-MAP Soft-Input Soft-Output Massive MU-MIMO Data Detector in 28nm CMOS</title>
@@ -53,6 +62,15 @@
       <pubDate>Thu, 02 May 2019 18:41:53 -0400</pubDate>
       
       <guid>https://ofcastaneda.github.io/publication/19_iscas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synopsys DC Tutorial</title>
+      <link>https://ofcastaneda.github.io/publication/syndc-tut/</link>
+      <pubDate>Wed, 23 Jan 2019 23:42:49 -0500</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/syndc-tut/</guid>
       <description></description>
     </item>
     

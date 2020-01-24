@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Massive multiuser (MU) multiple-input multiple-output (MIMO) promises significant improvements in spectral efficiency compared to small-scale MIMO. Typical massive MU-MIMO base-station (BS) designs rely on centralized linear data detectors and precoders which entail excessively high complexity, interconnect data rates, and chip input/output (I/O) bandwidth when executed on a single computing fabric. To resolve these complexity and bandwidth bottlenecks, we propose new decentralized algorithms for data detection and precoding that use coordinate descent. Our methods parallelize computations across multiple computing fabrics, while minimizing interconnect and I/O bandwidth. The proposed decentralized algorithms achieve near-optimal error-rate performance and multi-Gbps throughput at sub-1ms latency when implemented on a multi-GPU cluster with half-precision floating-point arithmetic.">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/19_iscas/">
+  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/syndc-tut/">
 
   
 
@@ -96,7 +96,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ofcastaneda.github.io/publication/19_iscas/">
+  <link rel="canonical" href="https://ofcastaneda.github.io/publication/syndc-tut/">
 
   
   
@@ -111,26 +111,26 @@
   <meta property="twitter:creator" content="@ofcastaneda">
   
   <meta property="og:site_name" content="Oscar Castañeda">
-  <meta property="og:url" content="https://ofcastaneda.github.io/publication/19_iscas/">
-  <meta property="og:title" content="Decentralized Coordinate-Descent Data Detection and Precoding for Massive MU-MIMO | Oscar Castañeda">
-  <meta property="og:description" content="Massive multiuser (MU) multiple-input multiple-output (MIMO) promises significant improvements in spectral efficiency compared to small-scale MIMO. Typical massive MU-MIMO base-station (BS) designs rely on centralized linear data detectors and precoders which entail excessively high complexity, interconnect data rates, and chip input/output (I/O) bandwidth when executed on a single computing fabric. To resolve these complexity and bandwidth bottlenecks, we propose new decentralized algorithms for data detection and precoding that use coordinate descent. Our methods parallelize computations across multiple computing fabrics, while minimizing interconnect and I/O bandwidth. The proposed decentralized algorithms achieve near-optimal error-rate performance and multi-Gbps throughput at sub-1ms latency when implemented on a multi-GPU cluster with half-precision floating-point arithmetic."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://ofcastaneda.github.io/publication/syndc-tut/">
+  <meta property="og:title" content="Synopsys DC Tutorial | Oscar Castañeda">
+  <meta property="og:description" content=""><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-05-02T18:41:53-04:00">
+  <meta property="article:published_time" content="2019-01-23T23:42:49-05:00">
   
-  <meta property="article:modified_time" content="2019-05-02T18:41:53-04:00">
+  <meta property="article:modified_time" content="2019-01-23T23:42:49-05:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Decentralized Coordinate-Descent Data Detection and Precoding for Massive MU-MIMO | Oscar Castañeda</title>
+
+
+  <title>Synopsys DC Tutorial | Oscar Castañeda</title>
 
 </head>
 
@@ -343,7 +343,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Decentralized Coordinate-Descent Data Detection and Precoding for Massive MU-MIMO</h1>
+  <h1 itemprop="name">Synopsys DC Tutorial</h1>
 
   
 
@@ -352,23 +352,11 @@
 
 
 
-<meta content="2019-05-02 18:41:53 -0400 EDT" itemprop="datePublished">
-<meta content="2019-05-02 18:41:53 -0400 EDT" itemprop="dateModified">
+<meta content="2019-01-23 23:42:49 -0500 EST" itemprop="datePublished">
+<meta content="2019-01-23 23:42:49 -0500 EST" itemprop="dateModified">
 
 <div class="article-metadata">
 
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Kaipeng Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Oscar Castañeda</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Charles Jeon</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Joseph R. Cavallaro</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christoph Studer</span>
-
-  </div>
   
   
 
@@ -378,7 +366,7 @@
     
       
     
-    <time>May 2019</time>
+    <time>January 2019</time>
   </span>
   
 
@@ -430,12 +418,20 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/8702740" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/tutorials/d6_syndc.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/tutorials/syn.zip" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -461,9 +457,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Massive multiuser (MU) multiple-input multiple-output (MIMO) promises significant improvements in spectral efficiency compared to small-scale MIMO. Typical massive MU-MIMO base-station (BS) designs rely on centralized linear data detectors and precoders which entail excessively high complexity, interconnect data rates, and chip input/output (I/O) bandwidth when executed on a single computing fabric. To resolve these complexity and bandwidth bottlenecks, we propose new decentralized algorithms for data detection and precoding that use coordinate descent. Our methods parallelize computations across multiple computing fabrics, while minimizing interconnect and I/O bandwidth. The proposed decentralized algorithms achieve near-optimal error-rate performance and multi-Gbps throughput at sub-1ms latency when implemented on a multi-GPU cluster with half-precision floating-point arithmetic.</p>
-    
 
     
     <div class="row">
@@ -474,8 +467,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#4">
+              Report
             </a>
             
           </div>
@@ -486,18 +479,6 @@
     <div class="d-md-none space-below"></div>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">IEEE International Symposium on Circuits and Systems (ISCAS)</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -517,14 +498,98 @@
 
 
   
+
+
+
+
+
+  
+  
   
     
   
   
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu0fc531ce02c4db4eab45dbce9a03d1f8_103089_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://ofcastaneda.github.io/">Oscar Castañeda</a></h5>
+      <h6 class="card-subtitle">Ph.D. Student</h6>
+      <p class="card-text" itemprop="description">Ph.D. student in the VIP group, Cornell ECE</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#05contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/ofcastaneda" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=qkHVrDgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/ofcastaneda" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
 
 

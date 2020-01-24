@@ -3,6 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ofcastaneda.github.io/publication_types/4/</loc>
+    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/modelsim-tut/</loc>
+    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/</loc>
+    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication_types/</loc>
+    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/</loc>
+    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ofcastaneda.github.io/publication_types/1/</loc>
     <lastmod>2019-09-02T18:41:53-04:00</lastmod>
     <priority>0</priority>
@@ -10,23 +38,6 @@
   
   <url>
     <loc>https://ofcastaneda.github.io/publication/19_esscirc/</loc>
-    <lastmod>2019-09-02T18:41:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/</loc>
-    <lastmod>2019-09-02T18:41:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/publication_types/</loc>
-    <lastmod>2019-09-02T18:41:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/publication/</loc>
     <lastmod>2019-09-02T18:41:53-04:00</lastmod>
   </url>
   
@@ -48,6 +59,11 @@
   <url>
     <loc>https://ofcastaneda.github.io/publication/19_iscas/</loc>
     <lastmod>2019-05-02T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/syndc-tut/</loc>
+    <lastmod>2019-01-23T23:42:49-05:00</lastmod>
   </url>
   
   <url>

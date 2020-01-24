@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on Oscar Castañeda</title>
+    <link>https://ofcastaneda.github.io/publication_types/4/</link>
+    <description>Recent content in 4 on Oscar Castañeda</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jan 2020 23:42:38 -0500</lastBuildDate>
+    
+	    <atom:link href="https://ofcastaneda.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modelsim Tutorial</title>
+      <link>https://ofcastaneda.github.io/publication/modelsim-tut/</link>
+      <pubDate>Thu, 23 Jan 2020 23:42:38 -0500</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/modelsim-tut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synopsys DC Tutorial</title>
+      <link>https://ofcastaneda.github.io/publication/syndc-tut/</link>
+      <pubDate>Wed, 23 Jan 2019 23:42:49 -0500</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/syndc-tut/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
