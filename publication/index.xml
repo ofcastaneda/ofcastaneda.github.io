@@ -6,10 +6,28 @@
     <description>Recent content in Publications on Oscar Castañeda</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2020 23:42:38 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 18:41:53 -0400</lastBuildDate>
     
 	    <atom:link href="https://ofcastaneda.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finite-Alphabet MMSE Equalization for All-Digital Massive MU-MIMO mmWave Communication</title>
+      <link>https://ofcastaneda.github.io/publication/20_jsac/</link>
+      <pubDate>Sat, 19 Sep 2020 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/20_jsac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-Bandwidth Spatial Equalization for mmWave Massive MU-MIMO With Processing-in-Memory</title>
+      <link>https://ofcastaneda.github.io/publication/20_tcasii/</link>
+      <pubDate>Tue, 19 May 2020 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/20_tcasii/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modelsim Tutorial</title>
@@ -17,6 +35,33 @@
       <pubDate>Thu, 23 Jan 2020 23:42:38 -0500</pubDate>
       
       <guid>https://ofcastaneda.github.io/publication/modelsim-tut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Trade-offs for Decentralized Baseband Processing in Massive MU-MIMO Systems</title>
+      <link>https://ofcastaneda.github.io/publication/19_asilomarb/</link>
+      <pubDate>Wed, 27 Nov 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_asilomarb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite-Alphabet Wiener Filter Precoding for mmWave Massive MU-MIMO Systems</title>
+      <link>https://ofcastaneda.github.io/publication/19_asilomar/</link>
+      <pubDate>Wed, 27 Nov 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_asilomar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siamese Neural Networks for Wireless Positioning and Channel Charting</title>
+      <link>https://ofcastaneda.github.io/publication/19_allerton/</link>
+      <pubDate>Fri, 27 Sep 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_allerton/</guid>
       <description></description>
     </item>
     

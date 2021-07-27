@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Base station (BS) architectures for massive multi- user (MU) multiple-input multiple-output (MIMO) wireless systems are equipped with hundreds of antennas to serve tens of users on the same time-frequency channel. The immense number of BS antennas incurs high system costs, power, and interconnect bandwidth. To circumvent these obstacles, sophisticated MU precoding algorithms that enable the use of 1-bit DACs have been proposed. Many of these precoders feature parameters that are, traditionally, tuned manually to optimize their performance. We propose to use deep-learning tools to automatically tune such 1-bit precoders. Specifically, we optimize the biConvex 1-bit PrecOding (C2PO) algorithm using neural networks. Compared to the original C2PO algorithm, our neural-network optimized (NNO-)C2PO achieves the same error-rate performance at 2x lower complexity. Moreover, by training NNO-C2PO for different channel models, we show that 1-bit precoding can be made robust to vastly changing propagation conditions.">
+  <meta name="description" content="Massive multi-user (MU) multiple-input multiple- output (MIMO) provides high spectral efficiency by means of spatial multiplexing and fine-grained beamforming. However, conventional base-station (BS) architectures for systems with hundreds of antennas that rely on centralized baseband processing inevitably suffer from (i) excessive interconnect data rates between radio-frequency circuitry and processing fabrics, and (ii) prohibitive complexity at the centralized baseband processor. Recently, decentralized baseband processing (DBP) architectures and algorithms have been proposed, which mitigate the interconnect bandwidth and complexity bottlenecks. This paper systematically explores the design trade-offs between error-rate performance, computational complexity, and data transfer latency of DBP architectures under different system configurations and channel conditions. Considering architecture, algorithm, and numerical precision aspects, we provide practical guidelines to select the DBP architecture and algorithm that are able to realize the full benefits of massive MU-MIMO in the uplink and downlink.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/19_spawc/">
+  <link rel="alternate" hreflang="en-us" href="https://ofcastaneda.github.io/publication/19_asilomarb/">
 
   
 
@@ -96,7 +96,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ofcastaneda.github.io/publication/19_spawc/">
+  <link rel="canonical" href="https://ofcastaneda.github.io/publication/19_asilomarb/">
 
   
   
@@ -111,26 +111,26 @@
   <meta property="twitter:creator" content="@ofcastaneda">
   
   <meta property="og:site_name" content="Oscar Castañeda">
-  <meta property="og:url" content="https://ofcastaneda.github.io/publication/19_spawc/">
-  <meta property="og:title" content="Neural-Network Optimized 1-bit Precoding for Massive MU-MIMO | Oscar Castañeda">
-  <meta property="og:description" content="Base station (BS) architectures for massive multi- user (MU) multiple-input multiple-output (MIMO) wireless systems are equipped with hundreds of antennas to serve tens of users on the same time-frequency channel. The immense number of BS antennas incurs high system costs, power, and interconnect bandwidth. To circumvent these obstacles, sophisticated MU precoding algorithms that enable the use of 1-bit DACs have been proposed. Many of these precoders feature parameters that are, traditionally, tuned manually to optimize their performance. We propose to use deep-learning tools to automatically tune such 1-bit precoders. Specifically, we optimize the biConvex 1-bit PrecOding (C2PO) algorithm using neural networks. Compared to the original C2PO algorithm, our neural-network optimized (NNO-)C2PO achieves the same error-rate performance at 2x lower complexity. Moreover, by training NNO-C2PO for different channel models, we show that 1-bit precoding can be made robust to vastly changing propagation conditions."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://ofcastaneda.github.io/publication/19_asilomarb/">
+  <meta property="og:title" content="Design Trade-offs for Decentralized Baseband Processing in Massive MU-MIMO Systems | Oscar Castañeda">
+  <meta property="og:description" content="Massive multi-user (MU) multiple-input multiple- output (MIMO) provides high spectral efficiency by means of spatial multiplexing and fine-grained beamforming. However, conventional base-station (BS) architectures for systems with hundreds of antennas that rely on centralized baseband processing inevitably suffer from (i) excessive interconnect data rates between radio-frequency circuitry and processing fabrics, and (ii) prohibitive complexity at the centralized baseband processor. Recently, decentralized baseband processing (DBP) architectures and algorithms have been proposed, which mitigate the interconnect bandwidth and complexity bottlenecks. This paper systematically explores the design trade-offs between error-rate performance, computational complexity, and data transfer latency of DBP architectures under different system configurations and channel conditions. Considering architecture, algorithm, and numerical precision aspects, we provide practical guidelines to select the DBP architecture and algorithm that are able to realize the full benefits of massive MU-MIMO in the uplink and downlink."><meta property="og:image" content="https://ofcastaneda.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-07-02T18:41:53-04:00">
+  <meta property="article:published_time" content="2019-11-27T18:41:53-04:00">
   
-  <meta property="article:modified_time" content="2019-07-02T18:41:53-04:00">
+  <meta property="article:modified_time" content="2019-11-27T18:41:53-04:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Neural-Network Optimized 1-bit Precoding for Massive MU-MIMO | Oscar Castañeda</title>
+
+
+  <title>Design Trade-offs for Decentralized Baseband Processing in Massive MU-MIMO Systems | Oscar Castañeda</title>
 
 </head>
 
@@ -343,7 +343,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Neural-Network Optimized 1-bit Precoding for Massive MU-MIMO</h1>
+  <h1 itemprop="name">Design Trade-offs for Decentralized Baseband Processing in Massive MU-MIMO Systems</h1>
 
   
 
@@ -352,8 +352,8 @@
 
 
 
-<meta content="2019-07-02 18:41:53 -0400 -0400" itemprop="datePublished">
-<meta content="2019-07-02 18:41:53 -0400 -0400" itemprop="dateModified">
+<meta content="2019-11-27 18:41:53 -0400 -0400" itemprop="datePublished">
+<meta content="2019-11-27 18:41:53 -0400 -0400" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -366,7 +366,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Alexios Balatsoukas-Stimming</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Oscar Castañeda</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Sven Jacobsson</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Giuseppe Durisi</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christoph Studer</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Kaipeng Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person">James McNaney</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chance Tarver</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Oscar Castañeda</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Charles Jeon</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Joseph R. Cavallaro</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christoph Studer</span>
 
   </div>
   
@@ -378,7 +378,7 @@
     
       
     
-    <time>July 2019</time>
+    <time>November 2019</time>
   </span>
   
 
@@ -430,7 +430,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1903.03718" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1912.04437" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -462,7 +462,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Base station (BS) architectures for massive multi- user (MU) multiple-input multiple-output (MIMO) wireless systems are equipped with hundreds of antennas to serve tens of users on the same time-frequency channel. The immense number of BS antennas incurs high system costs, power, and interconnect bandwidth. To circumvent these obstacles, sophisticated MU precoding algorithms that enable the use of 1-bit DACs have been proposed. Many of these precoders feature parameters that are, traditionally, tuned manually to optimize their performance. We propose to use deep-learning tools to automatically tune such 1-bit precoders. Specifically, we optimize the biConvex 1-bit PrecOding (C2PO) algorithm using neural networks. Compared to the original C2PO algorithm, our neural-network optimized (NNO-)C2PO achieves the same error-rate performance at 2x lower complexity. Moreover, by training NNO-C2PO for different channel models, we show that 1-bit precoding can be made robust to vastly changing propagation conditions.</p>
+    <p class="pub-abstract" itemprop="text">Massive multi-user (MU) multiple-input multiple- output (MIMO) provides high spectral efficiency by means of spatial multiplexing and fine-grained beamforming. However, conventional base-station (BS) architectures for systems with hundreds of antennas that rely on centralized baseband processing inevitably suffer from (i) excessive interconnect data rates between radio-frequency circuitry and processing fabrics, and (ii) prohibitive complexity at the centralized baseband processor. Recently, decentralized baseband processing (DBP) architectures and algorithms have been proposed, which mitigate the interconnect bandwidth and complexity bottlenecks. This paper systematically explores the design trade-offs between error-rate performance, computational complexity, and data transfer latency of DBP architectures under different system configurations and channel conditions. Considering architecture, algorithm, and numerical precision aspects, we provide practical guidelines to select the DBP architecture and algorithm that are able to realize the full benefits of massive MU-MIMO in the uplink and downlink.</p>
     
 
     
@@ -492,7 +492,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</div>
+          <div class="col-12 col-md-9">Asilomar Conference on Signals, Systems, and Computers</div>
         </div>
       </div>
       <div class="col-md-1"></div>

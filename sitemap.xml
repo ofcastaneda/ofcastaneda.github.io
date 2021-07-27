@@ -3,6 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ofcastaneda.github.io/publication_types/2/</loc>
+    <lastmod>2020-09-19T18:41:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/20_jsac/</loc>
+    <lastmod>2020-09-19T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/</loc>
+    <lastmod>2020-09-19T18:41:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication_types/</loc>
+    <lastmod>2020-09-19T18:41:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/</loc>
+    <lastmod>2020-09-19T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/20_tcasii/</loc>
+    <lastmod>2020-05-19T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ofcastaneda.github.io/publication_types/4/</loc>
     <lastmod>2020-01-23T23:42:38-05:00</lastmod>
     <priority>0</priority>
@@ -14,26 +47,24 @@
   </url>
   
   <url>
-    <loc>https://ofcastaneda.github.io/</loc>
-    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/publication_types/</loc>
-    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/publication/</loc>
-    <lastmod>2020-01-23T23:42:38-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ofcastaneda.github.io/publication_types/1/</loc>
-    <lastmod>2019-09-02T18:41:53-04:00</lastmod>
+    <lastmod>2019-11-27T18:41:53-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/19_asilomarb/</loc>
+    <lastmod>2019-11-27T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/19_asilomar/</loc>
+    <lastmod>2019-11-27T18:41:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ofcastaneda.github.io/publication/19_allerton/</loc>
+    <lastmod>2019-09-27T18:41:53-04:00</lastmod>
   </url>
   
   <url>
@@ -79,12 +110,6 @@
   <url>
     <loc>https://ofcastaneda.github.io/publication/17_jetcas/</loc>
     <lastmod>2017-12-19T18:41:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ofcastaneda.github.io/publication_types/2/</loc>
-    <lastmod>2017-12-19T18:41:53-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

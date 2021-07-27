@@ -6,10 +6,37 @@
     <description>Recent content in 1 on Oscar Castañeda</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2019 18:41:53 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 18:41:53 -0400</lastBuildDate>
     
 	    <atom:link href="https://ofcastaneda.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Design Trade-offs for Decentralized Baseband Processing in Massive MU-MIMO Systems</title>
+      <link>https://ofcastaneda.github.io/publication/19_asilomarb/</link>
+      <pubDate>Wed, 27 Nov 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_asilomarb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite-Alphabet Wiener Filter Precoding for mmWave Massive MU-MIMO Systems</title>
+      <link>https://ofcastaneda.github.io/publication/19_asilomar/</link>
+      <pubDate>Wed, 27 Nov 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_asilomar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siamese Neural Networks for Wireless Positioning and Channel Charting</title>
+      <link>https://ofcastaneda.github.io/publication/19_allerton/</link>
+      <pubDate>Fri, 27 Sep 2019 18:41:53 -0400</pubDate>
+      
+      <guid>https://ofcastaneda.github.io/publication/19_allerton/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A 354Mb/s 0.37mm^2 151mW 32-User 256-QAM Near-MAP Soft-Input Soft-Output Massive MU-MIMO Data Detector in 28nm CMOS</title>
